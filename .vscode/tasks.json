@@ -1,0 +1,43 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-w",
+                "-g",
+                "-o",
+                "turing",
+                "turing.cpp",
+                "simulate.cpp"
+            ],
+            "options": {
+                "cwd": "/mnt/f/github/turing"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Debugger"
+        }
+    ],
+    "version": "2.0.0"
+}
+
+/*
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "make",
+            "args": ["turing"],
+        }
+    ],
+    "version": "2.0.0"
+}
+*/

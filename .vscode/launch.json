@@ -1,0 +1,32 @@
+{ 
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Bash on Windows Launch",
+            "preLaunchTask": "build",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/mnt/f/github/turing/turing",
+            "args": [
+                "-v",
+                "palindrome_detector_2tapes.tm",
+                "10000000100000001"
+            ],
+            "stopAtEntry": false,
+            "miDebuggerArgs": "",
+            "cwd": "/mnt/f/github/turing",
+            "environment": [],
+            "externalConsole": false,
+            "sourceFileMap": {
+                "/mnt/f/": "F:\\"
+            },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+    ]
+}
